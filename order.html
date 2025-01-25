@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant/contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="img" src="D:\Swenil\project\restaurant\image\logo.jpg" alt="panjabi dhaba">
+        <h1 class="name">panjabi dhaba</h1>
+        <nev>
+            <a href="home.html">home</a>
+            <a href="menu.html">menu</a>
+            <a href="order.html">order</a>
+            <a href="complain.html">complain</a>
+            <a href="contact.html">contact</a>
+        </nev>
+    </header>
+
+    <center>
+        <h1>place your order</h1>
+        <article>
+            <div class="container3">
+                <form action="/submit-contact" method="post">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+        
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+        
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br>
+        
+                    <label for="add">add</label>
+                    <textarea id="add" name="add" rows="5" placeholder="Type your address here..." required></textarea><br>
+
+                    <label for="item">item name</label>
+                    <select name="item">
+                        <option value="TANDOORI CHICKEN">TANDOORI CHICKEN</option>
+                        <option value="AFGHANI CHICKEN">AFGHANI CHICKEN</option>
+                        <option value="CHICKEN TANGRI">CHICKEN TANGRI</option>
+                        <option value="AFGHANI TANGRI">AFGHANI TANGRI</option>
+                        <option value="CHICKEN MALAI TIKKA">CHICKEN MALAI TIKKA</option>
+                        <option value="CHICKEN HARIYALI TIKKA">CHICKEN HARIYALI TIKKA</option>
+                        <option value="BUTTER CHICKEN(BONELESS)">BUTTER CHICKEN(BONELESS)</option>
+                        <option value="BUTTER CHICKEN">BUTTER CHICKEN</option>
+                        <option value="KADAI CHICKEN">KADAI CHICKEN</option>
+                        <option value="CHICKEN LABABDAR">CHICKEN LABABDAR</option>
+                        <option value="CHICKEN DO PYAZA">CHICKEN DO PYAZA</option>
+                        <option value="CHICKEN CURRY">CHICKEN CURRY</option>
+                    </select>
+
+                    <h3>total bill=</h3>
+                    <p>total</p>
+        
+                    <button type="submit">Send oder</button>
+                </form>
+            </div>
+        </article>
+    </center>
+</body>
+</html>
